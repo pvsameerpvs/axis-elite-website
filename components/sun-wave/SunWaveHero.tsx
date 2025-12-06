@@ -22,7 +22,7 @@ export function SunWaveHero() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden border-b border-neutral-100">
+    <section className="relative overflow-hidden border-b border-neutral-100 min-h-screen flex items-center">
       {/* BACKGROUND SLIDER */}
       <div className="absolute inset-0">
         {sliderImages.map((src, idx) => (

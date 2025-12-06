@@ -1,17 +1,18 @@
 export function SunWaveProductsServices() {
   return (
-    <section className="border-y border-neutral-100 bg-neutral-900 py-16 text-neutral-50">
-      <div className="container space-y-8">
-        <div className="space-y-2">
+    <section className="border-y border-neutral-100 bg-neutral-900 py-24 text-neutral-50 min-h-screen flex items-center">
+      <div className="container space-y-12">
+        <div className="space-y-3">
           <p className="section-title text-neutral-400">
             Products &amp; Services
           </p>
-          <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Full-stack digital, cloud and infrastructure solutions.
           </h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-3">
-          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-5">
+
+        <div className="grid gap-8 md:grid-cols-3">
+          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-6">
             <h3 className="text-sm font-semibold text-neutral-50">
               Software Design &amp; Development
             </h3>
@@ -20,7 +21,8 @@ export function SunWaveProductsServices() {
               enterprise systems and digital products.
             </p>
           </div>
-          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-5">
+
+          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-6">
             <h3 className="text-sm font-semibold text-neutral-50">
               Web Design &amp; Development
             </h3>
@@ -29,7 +31,8 @@ export function SunWaveProductsServices() {
               with performance and security in mind.
             </p>
           </div>
-          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-5">
+
+          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-6">
             <h3 className="text-sm font-semibold text-neutral-50">
               Cloud Services &amp; Data Centers
             </h3>
@@ -38,7 +41,8 @@ export function SunWaveProductsServices() {
               recovery with enterprise-grade reliability.
             </p>
           </div>
-          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-5">
+
+          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-6">
             <h3 className="text-sm font-semibold text-neutral-50">
               Social Media Apps &amp; Marketing
             </h3>
@@ -47,7 +51,8 @@ export function SunWaveProductsServices() {
               engagement and conversions.
             </p>
           </div>
-          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-5">
+
+          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-6">
             <h3 className="text-sm font-semibold text-neutral-50">
               Data Management &amp; Analytics
             </h3>
@@ -56,7 +61,8 @@ export function SunWaveProductsServices() {
               decision-making.
             </p>
           </div>
-          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-5">
+
+          <div className="space-y-2 rounded-2xl border border-neutral-700 bg-neutral-900/60 p-6">
             <h3 className="text-sm font-semibold text-neutral-50">
               Cybersecurity &amp; IT Infrastructure
             </h3>

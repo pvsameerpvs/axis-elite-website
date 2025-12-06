@@ -11,11 +11,25 @@ export const metadata = {
 export default function SunWavePage() {
   return (
     <div className="space-y-20">
-      <SunWaveHero />
-      <SunWaveKeyActivities />
-      <SunWaveProductsServices />
-      <SunWaveCustomersSuppliers />
-      <SunWaveContact />
+      <section id="sunwave-hero">
+        <SunWaveHero />
+      </section>
+
+      <section id="activities">
+        <SunWaveKeyActivities />
+      </section>
+
+      <section id="services">
+        <SunWaveProductsServices />
+      </section>
+
+      <section id="customers">
+        <SunWaveCustomersSuppliers />
+      </section>
+
+      <section id="contact">
+        <SunWaveContact />
+      </section>
     </div>
   );
 }
